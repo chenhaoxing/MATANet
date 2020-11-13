@@ -30,5 +30,5 @@ If you find our work useful, please consider citing our work using the bibtex:
 
 
 
-Our code is based on [CovaMNet](https://github.com/WenbinLee/CovaMNet)
+Our code is based on [CovaMNet](https://github.com/WenbinLee/CovaMNet).
 
