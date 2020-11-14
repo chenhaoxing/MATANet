@@ -1,5 +1,5 @@
 # MATANet
-This repository is the code of paper "MATA: Multi-scale Adaptive Task Attention Network for Few-shot Learning".
+This repository is the code of paper "Multi-scale Adaptive Task Attention Network for Few-shot Learning".
 
 Our code will be released until the paper received.
 
@@ -36,11 +36,24 @@ Test model on the test set:
 ```
 python MATA_Test_5way1shot.py --dataset_dir ./datasets/miniImageNet --data_name miniImageNet --resume ./results/MATA_miniImageNet_MATA64_5Way_1Shot/model_best_test.pth.tar 
 ```
-
+# Fine-grained Few-shot Classification
+* Data prepocessing (e.g., CUB-200-2011).
+* Run the preprocessing script.
+```
+python ./dataset/CUB200_preprocessing.py
+```
+* Train a 5-way 1-shot model based on Conv-64F:
+```
+python MATA_Train_5way1shot.py --dataset_dir ./datasets/CUB_200_2011 --data_name CUBBirds
+```
+Test model on the test set:
+```
+python MATA_Test_5way1shot.py --dataset_dir ./datasets/CUB_200_2011 --data_name CUBBirds --resume ./results/MATA_CUBBirds_MATA64_5Way_1Shot/model_best_test.pth.tar 
+```
 # Contacts
 Please feel free to contact us if you have any problem.
 
-Email:haoxingchen@smail.nju.edu.cn
+Email: haoxingchen@smail.nju.edu.cn
 
 
 Our code is based on [CovaMNet](https://github.com/WenbinLee/CovaMNet).
