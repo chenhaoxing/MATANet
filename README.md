@@ -27,7 +27,20 @@ If you find our work useful, please consider citing our work using the bibtex:
 * [Stanford Dog](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 * [Stanford Car](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 
+# miniImageNet Few-shot Classification
+* Train a 5-way 1-shot model based on Conv-64F:
+```
+python MATA_Train_5way1shot.py --dataset_dir ./datasets/miniImageNet --data_name miniImageNet
+```
+Test model on the test set:
+```
+python MATA_Test_5way1shot.py --dataset_dir ./datasets/miniImageNet --data_name miniImageNet --resume ./results/MATA_miniImageNet_MATA64_5Way_1Shot/model_best_test.pth.tar 
+```
 
+# Contacts
+Please feel free to contact us if you have any problem.
+
+Email:haoxingchen@smail.nju.edu.cn
 
 
 Our code is based on [CovaMNet](https://github.com/WenbinLee/CovaMNet).
