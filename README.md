@@ -40,7 +40,7 @@ python MATA_Test_5way1shot.py --dataset_dir ./datasets/miniImageNet --data_name 
 * Data prepocessing (e.g., CUB-200-2011).
 * Run the preprocessing script.
 ```
-python ./dataset/CUB200_preprocessing.py
+python ./dataset/CUB_200_2011_preprocessing.py
 ```
 * Train a 5-way 1-shot model based on Conv-64F:
 ```
