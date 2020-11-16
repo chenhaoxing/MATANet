@@ -8,7 +8,7 @@ If you find our work useful, please consider citing our work using the bibtex:
 ```
 @article{chen2020mata,
   title={Multi-scale Adaptive Task Attention Network for Few-shot Learning},  
-  author={Chen,Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin},  
+  author={Chen,Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin and Gao, Yang},  
   journal={arXiv preprint arXiv:xxx},  
   year={2020}
 }
