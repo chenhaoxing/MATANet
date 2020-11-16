@@ -56,5 +56,3 @@ Please feel free to contact us if you have any problem.
 Email: haoxingchen@smail.nju.edu.cn
 
 
-Our code is based on [CovaMNet](https://github.com/WenbinLee/CovaMNet).
-
