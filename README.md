@@ -3,7 +3,7 @@ This code implements the Multi-scale Adaptive Task Attention Network (MATANet).
 
 Our code will be released until the paper received.
 
-# Citation
+## Citation
 If you find our work useful, please consider citing our work using the bibtex:
 ```
 @article{chen2020mata,
@@ -14,7 +14,7 @@ If you find our work useful, please consider citing our work using the bibtex:
 }
 ```
 
-# Prerequisites
+## Prerequisites
 * Linux
 * Python 3.6
 * Pytorch 1.0+
@@ -30,7 +30,7 @@ If you find our work useful, please consider citing our work using the bibtex:
 
 **Note: You need to manually change the dataset directory.**
 
-# miniImageNet Few-shot Classification
+## miniImageNet Few-shot Classification
 * Train a 5-way 1-shot model based on Conv-64F:
 ```
 python MATA_Train_5way1shot.py --dataset_dir ./datasets/miniImageNet --data_name miniImageNet
@@ -39,7 +39,7 @@ Test model on the test set:
 ```
 python MATA_Test_5way1shot.py --dataset_dir ./datasets/miniImageNet --data_name miniImageNet --resume ./results/MATA_miniImageNet_MATA64_5Way_1Shot/model_best_test.pth.tar 
 ```
-# Fine-grained Few-shot Classification
+## Fine-grained Few-shot Classification
 * Data prepocessing (e.g., CUB-200-2011).
 * Run the preprocessing script.
 ```
@@ -61,7 +61,7 @@ python MATA_Test_5way1shot_fg.py --dataset_dir ./datasets/CUB_200_2011 --data_na
 ```
 
 
-# Contacts
+## Contacts
 Please feel free to contact us if you have any problem.
 
 Email: haoxingchen@smail.nju.edu.cn
