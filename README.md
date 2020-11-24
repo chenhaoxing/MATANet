@@ -40,7 +40,7 @@ Test model on the test set:
 python MATA_Test_5way1shot.py --dataset_dir ./datasets/miniImageNet --data_name miniImageNet --resume ./results/MATA_miniImageNet_MATA64_5Way_1Shot/model_best_test.pth.tar 
 ```
 ## Fine-grained Few-shot Classification
-* Data prepocessing (e.g., CUB-200-2011).
+* Data preprocessing (e.g., CUB-200-2011).
 * Run the preprocessing script.
 ```
 python ./dataset/CUB_200_2011_preprocessing.py
@@ -54,15 +54,15 @@ Test model on the test set:
 python MATA_Test_5way1shot.py --dataset_dir ./datasets/CUB_200_2011 --data_name CUBBirds --resume ./results/MATA_CUBBirds_MATA64_5Way_1Shot/model_best_test.pth.tar 
 ```
 ## Pretrained models
-We also provide some of the pretrained models.
-You can run the follow command to evaluate the model
+We also provide some of the pre-trained models.
+You can run the following command to evaluate the model
 ```
 python MATA_Test_5way1shot_fg.py --dataset_dir ./datasets/CUB_200_2011 --data_name CUBBirds --resume ./results/MATA_CUBBirds_MATA64_5Way_1Shot/model_best_test.pth.tar 
 ```
 
 
 ## Contacts
-Please feel free to contact us if you have any problem.
+Please feel free to contact us if you have any problems.
 
 Email: haoxingchen@smail.nju.edu.cn
 
