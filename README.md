@@ -6,11 +6,21 @@ Our code will be released until the paper received.
 ## Citation
 If you find our work useful, please consider citing our work using the bibtex:
 ```
-@article{chen2020mata,
-  title={Multi-scale Adaptive Task Attention Network for Few-shot Learning},  
-  author={Chen,Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin and Gao, Yang},  
-  journal={arXiv preprint arXiv:xxx},  
-  year={2020}
+@article{DBLP:journals/corr/abs-2011-14479,
+  author    = {Haoxing Chen and
+               Huaxiong Li and
+               Yaohui Li and
+               Chunlin Chen},
+  title     = {Multi-scale Adaptive Task Attention Network for Few-Shot Learning},
+  journal   = {CoRR},
+  volume    = {abs/2011.14479},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2011.14479},
+  archivePrefix = {arXiv},
+  eprint    = {2011.14479},
+  timestamp = {Tue, 01 Dec 2020 14:59:59 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2011-14479.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
