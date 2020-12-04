@@ -1,7 +1,7 @@
 # Multi-scale Adaptive Task Attention Network for Few-Shot Learning
 This code implements the Multi-scale Adaptive Task Attention Network (MATANet).
 
-Our code will be released until the paper received.
+Our code will be released soon.
 
 ## Citation
 If you find our work useful, please consider citing our work using the bibtex:
